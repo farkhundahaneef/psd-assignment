@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container
+  {
+      max-width: 1280px;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .logo-image{
+      margin-top: 19px;
+  }
+  .header-top-inner {
+    display: flex;
+    justify-content: space-between;
+    max-height: 57px;
+}
+.select-category-search {
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.location-header-bar {
+    display: flex;
+}
+.buttons {
+    display: flex;
+    padding: 0px 10px;
+}
+.search-bar {
+    max-height: 20px;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 5px;
+}
+.search-icon {
+    padding-left: 340px;
+}
+
+select.row {
+    border: none;
+}
+.location-header-bar {
+    display: flex;
+    padding-top: 20px;
+}
+.address-inner{
+    display: flex;
+    border-bottom:1px solid #e0e0e0;
+
+}
+.location-address > form > select {
+    border: none;
+    padding-left: 10px;
+}
+.button-inner{
+    background: #007981;
+    color: #FFF;
+    font-size: 13px;
+    min-width: 80px;
+    padding: 3px 25px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: inset 0 2px 0 0px rgba(255,255,255,0.4);
+    border: 2px solid #007981;
+    margin: 0px 5px;
+    font-weight: bold;
+    
+}
+.button-inner > a{
+    color:white;
+    text-decoration: none;
+}
+.logo-button {
+    display: flex;
+    border-radius: 40px;
+    background: #d4cf4e;
+    max-height: 41px;
+    padding-right: 17px;
+}
+.dasti-quote-inner > img{
+        width: 73px;
+        padding: 3px 0px 0px 11px;
+}
+.dasti-quote > p{
+    padding: 3px 0px 0px 7px;
+    font-size: 15px;
+    line-height: 31px;
+    color: #060703;
+    font-weight: bold;
+    font-family: "Euphemia UC AS";
+}
+.shopping-img{
+    padding: 6px 0px 0px 8px;
+}
+.items-inner{
+    display: flex;
+    margin-top: 31px;
+    justify-content: space-between;
+}
+.items-inner-inner > p {
+    font-size: 14px;
+    line-height: 27px;
+    color: #949494;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 7px;
+}
+.items-image{
+    padding: 10px;
+    transition: 0.3s linear all;
+    background: #f3f3f3;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.electronic-items{
+background-image: url('../images/main-slide-bg.jpg');
+}
+.electronic-items-inner{
+    display: flex;
+}
+.tv-image > img{
+    width: 582px;
+    height: 380px;
+}
+.tv-image{
+    margin: 46px 0px 0px 97px;
+}
+.tv-description{
+    margin: 82px 0px 0px 48px;
+}
+.tv-description > h1{
+    font-size: 80px;
+line-height: 36px;
+color: #2b2b2b;
+font-weight: 700;
+font-family: "Roboto";
+}
+.tv-description >h2{
+    font-size: 40px;
+padding-top: 31px;
+color: #2b2b2b;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+}
+.tv-description > p{
+    font-size: 15px;
+line-height: 27px;
+color: #2b2b2b;
+font-weight: 400;
+font-family: "Roboto";
+padding-top: 13px;
+}
+.detail-btn > a{
+    font-size: 13px;
+    background: #f86e1b;
+    border-radius: 40px;
+    padding: 5px 40px;
+    color: white;
+    box-shadow: inset 0 2px 0 0px rgba(255,255,255,0.4);
+    border: 2px solid #f86e1b;
+    text-decoration: none;
+    
+    padding: 10px 34px;
+}
+.details-btn > a{
+    font-size: 13px;
+    background: #f86e1b;
+    border-radius: 40px;
+    padding: 2px 40px;
+    color: white;
+    box-shadow: inset 0 2px 0 0px rgba(255,255,255,0.4);
+    border: 2px solid #f86e1b;
+    text-decoration: none;
+    margin-top: 9px;
+    display: inline-block;
+    
+}
+
+span.detail-btn {
+    padding-top: 10px;
+    display: block;
+}
+.products {
+    margin: 11px;
+    border: 2px solid #e0e0e0;
+   
+}
+.electronic-product {
+    display: flex;
+}
+.service{
+    min-width: 406px;
+    background: #FFF;
+    transform: translateY(0);
+    transition: 0.3s ease all;
+    margin-top: 15px;
+    
+  }
+  .services-one{
+    display: flex;
+    padding: 30px 9px 30px 14px;
+  }
+  .service-details{
+    display: inline-block;
+  }
+  .service-image > img{
+    padding: 6px 28px 9px 44px;
+  }
+  .services{
+    margin-bottom: 46px;
+  }
+  .service-details > h3{
+    font-size: 22px;
+  line-height: 34px;
+  color: #151515;
+  font-weight: 500;
+  }
+  .service-details> p{
+    color: #040404;
+  font-weight: 500;
+  }
+  .service-heading > h3{
+    font-size: 37px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #000000;
+  font-weight: 900;
+  text-align: center;
+  }
+  
+  .service-top{
+    margin-bottom: 48px;
+  }
+  .row-1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .row-2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .row-3{
+    display: flex;
+    justify-content: space-around;
+  }
+  .services-outer{
+     background-color: #f6f6f6;
+  }
+  .detail-btn{
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .top-vendors-inner{
+      display: flex;
+      margin-top: 20px;
+      justify-content: space-between;
+  }
+  .top-vendor-1{
+   box-shadow:  0 10px 20px rgba(0,0,0,0.1);
+      border-radius: 50%;
+      margin-bottom: 18px;
+  }
+  .top-vendor-1 > img{
+      padding: 21px 21px 24px 30px;
+  }
+     .vendor-details > h4{
+        font-size: 20px;
+        line-height: 27px;
+        color: #2b2b2b;
+        font-weight: 700;
+        font-family: "Roboto";
+        text-align: center;
+     }
+     .vendor-details > p{
+        font-size: 15px;
+        line-height: 27px;
+        color: #2b2b2b;
+        font-weight: 400;
+        font-family: "Roboto";
+        text-align: center;
+     }
+     .section-header > h3{
+        font-size: 40px;
+        line-height: 35px;
+        color: #2b2b2b;
+        font-weight: 400;
+        font-family: "Roboto";
+        text-align: center;
+     }
+     .premium{
+        font-size: 40px;
+        line-height: 35px;
+        color: #2b2b2b;
+        font-weight: bold;
+        font-family: "Roboto";
+        text-align: center;
+     }
+   .section-header > p{  
+     font-size: 15px;
+    line-height: 27px;
+    color: #2b2b2b;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 9px;
+   }
+.product-image{
+    padding: 17px;
+}
+.product-image.camera {
+    padding-top: 59px;
+}
+.top-sellers > h3{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #979797;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+.top-sellers-image{
+    text-align: center;
+}
